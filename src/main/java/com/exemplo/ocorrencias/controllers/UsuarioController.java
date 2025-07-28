@@ -29,7 +29,7 @@ public class UsuarioController {
 
     @PreAuthorize("hasRole('ADMIN')")
     @DeleteMapping("/{id}")
-    public void deletarUsuario(@PathVariable Long id) {
+    public void deletarUsuario(@PathVariable String id) {
         userRepository.deleteById(id);
     }
 }

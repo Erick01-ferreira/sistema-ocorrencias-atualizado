@@ -1,13 +1,13 @@
-package com.example.auth.controllers;
+package com.exemplo.ocorrencias.controllers;
 
-import com.example.auth.domain.product.Product;
-import com.example.auth.domain.product.ProductRequestDTO;
-import com.example.auth.domain.product.ProductResponseDTO;
-import com.example.auth.repositories.ProductRepository;
+import com.exemplo.ocorrencias.domain.product.Product;
+import com.exemplo.ocorrencias.domain.product.ProductResponseDTO;
+import com.exemplo.ocorrencias.repositories.ProductRepository;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import com.exemplo.ocorrencias.domain.product.ProductRequestDTO;
 
 import java.util.List;
 

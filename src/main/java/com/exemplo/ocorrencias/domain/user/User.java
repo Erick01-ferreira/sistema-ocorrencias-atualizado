@@ -1,4 +1,4 @@
-package com.example.auth.domain.user;
+package com.exemplo.ocorrencias.domain.user;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -26,7 +26,7 @@ public class User implements UserDetails {
     private String password;
     private UserRole role;
 
-    public User(String login, String password, UserRole role){
+    public User (String login, String password, UserRole role){
         this.login = login;
         this.password = password;
         this.role = role;

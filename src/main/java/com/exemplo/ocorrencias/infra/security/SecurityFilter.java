@@ -1,6 +1,6 @@
-package com.example.auth.infra.security;
+package com.exemplo.ocorrencias.infra.security;
 
-import com.example.auth.repositories.UserRepository;
+import com.exemplo.ocorrencias.repositories.UserRepository;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
@@ -18,6 +18,7 @@ import java.io.IOException;
 public class SecurityFilter extends OncePerRequestFilter {
     @Autowired
     TokenService tokenService;
+
     @Autowired
     UserRepository userRepository;
 

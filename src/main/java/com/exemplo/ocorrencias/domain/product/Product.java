@@ -1,4 +1,4 @@
-package com.example.auth.domain.product;
+package com.exemplo.ocorrencias.domain.product;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

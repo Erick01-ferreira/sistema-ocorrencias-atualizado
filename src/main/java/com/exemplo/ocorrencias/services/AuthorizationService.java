@@ -1,6 +1,6 @@
-package com.example.auth.services;
+package com.exemplo.ocorrencias.services;
 
-import com.example.auth.repositories.UserRepository;
+import com.exemplo.ocorrencias.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

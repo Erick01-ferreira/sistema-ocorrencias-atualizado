@@ -1,4 +1,4 @@
-package com.example.auth.domain.user;
+package com.exemplo.ocorrencias.domain.user;
 
 public record LoginResponseDTO(String token) {
 }
